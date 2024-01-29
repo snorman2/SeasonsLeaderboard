@@ -27,3 +27,18 @@ h1 {
   width: 75px;
   max-width: 75px; /* Optional, but helps to ensure the width is not exceeded */
 }
+
+/* styles.scss */
+
+body {
+  background-color: #262626; /* Dark background color */
+  color: #ffffff; /* White text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specify your preferred font-family */
+}
+
+
+.crown-icon {
+  color: #ffd700; /* Gold color for the crown icon */
+}
+
+
