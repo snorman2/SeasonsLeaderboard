@@ -23,7 +23,7 @@ export class LeaderboardComponent implements OnInit {
   players: Player[] = [];
   selectedFilter: string = ''; // Add this property
   filteredPlayers: Player[] = [];
-  displayedColumns: string[] = ['name', 'wins', 'losses', 'winRate'];
+  displayedColumns: string[] = ['place', 'name', 'wins', 'losses', 'winRate'];
   pageTitle: string = 'FuzZionZ Seasons Leaderboard';
   champions: Player[] = [];
 

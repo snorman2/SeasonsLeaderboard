@@ -20,3 +20,10 @@
 h1 {
   color: #24069d; /* Set the color for the title text */
 }
+
+/* Add this to your component's styles or in the global styles */
+.place-header,
+.place-cell {
+  width: 75px;
+  max-width: 75px; /* Optional, but helps to ensure the width is not exceeded */
+}
