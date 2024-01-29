@@ -24,7 +24,7 @@ export class LeaderboardComponent implements OnInit {
   selectedFilter: string = ''; // Add this property
   filteredPlayers: Player[] = [];
   displayedColumns: string[] = ['place', 'name', 'wins', 'losses', 'winRate'];
-  pageTitle: string = 'FuzZionZ Seasons Leaderboard';
+  pageTitle: string = 'FuZzionZ Seasons Leaderboard';
   champions: Player[] = [];
 
   ngOnInit(): void {
