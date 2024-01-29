@@ -1,20 +1,33 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+// app.module.ts
 
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { MatTableModule } from '@angular/material/table'; // Import MatTableModule
 import { AppComponent } from './app.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { MatTabsModule } from '@angular/material/tabs'; 
+import { MatSelectModule } from '@angular/material/select';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeaderboardComponent
+   
+    // ... other components
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    MatTableModule, 
+    MatTabsModule,
+    MatSelectModule,
+    MatIconModule,
+    MatTooltipModule// Add MatTableModule to the imports array
+    // ... other modules
   ],
-  providers: [
-    provideClientHydration()
-  ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

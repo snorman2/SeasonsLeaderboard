@@ -1,0 +1,30 @@
+{
+  "playersData": [
+    { "name": "FuZzionZ", "wins": 31, "losses": 7, "champion": 1, "season": 1 },
+    { "name": "elhefe", "wins": 26, "losses": 8, "champion": 1, "season": 2 },
+    { "name": "Delta Makai", "wins": 26, "losses": 13, "champion": 0, "season": 0 },
+    { "name": "Alexis", "wins": 32, "losses": 6, "champion": 1, "season": 3 },
+    { "name": "GamrAlx", "wins": 15, "losses": 7, "champion": 0, "season": 0 },
+    { "name": "WarPrimus/Nathan", "wins": 9, "losses": 12, "champion": 0, "season": 0 },
+    { "name": "Asher Wolf", "wins": 5, "losses": 4, "champion": 0, "season": 0 },
+    { "name": "ZeroGeter", "wins": 5, "losses": 4, "champion": 0, "season": 0 },
+    { "name": "Rod", "wins": 4, "losses": 4, "champion": 0, "season": 0 },
+    { "name": "North", "wins": 2, "losses": 6, "champion": 0, "season": 0 },
+    { "name": "Yeetking", "wins": 2, "losses": 16, "champion": 0, "season": 0 },
+    { "name": "Zuka", "wins": 0, "losses": 8, "champion": 0, "season": 0 },
+    { "name": "BakuDan", "wins": 9, "losses": 2, "champion": 0, "season": 0 },
+    { "name": "VivaLaHunt", "wins": 14, "losses": 17, "champion": 0, "season": 0 },
+    { "name": "MrPokemon17", "wins": 3, "losses": 5, "champion": 0, "season": 0 },
+    { "name": "ChaoticBrawler/Pyrusking", "wins": 2, "losses": 6, "champion": 0, "season": 0 },
+    { "name": "Rex/Nitro", "wins": 4, "losses": 15, "champion": 0, "season": 0 },
+    { "name": "Zakumatoring", "wins": 5, "losses": 14, "champion": 0, "season": 0 },
+    { "name": "Crocs", "wins": 17, "losses": 8, "champion": 0, "season": 0 },
+    { "name": "Hazardrequiem", "wins": 8, "losses": 16, "champion": 0, "season": 0 },
+    { "name": "Maxh1gh", "wins": 4, "losses": 8, "champion": 0, "season": 0 },
+    { "name": "laval2400", "wins": 2, "losses": 10, "champion": 0, "season": 0 },
+    { "name": "lightunknown", "wins": 1, "losses": 11, "champion": 0, "season": 0 },
+    { "name": "Bakubrad", "wins": 0, "losses": 12, "champion": 0, "season": 0 },
+    { "name": "ligerprime", "wins": 2, "losses": 8, "champion": 0, "season": 0 }
+  ]
+}
+

@@ -1,0 +1,50 @@
+<!-- leaderboard.component.html -->
+
+<div>
+    <!-- Dropdown for filtering -->
+    <mat-form-field>
+      <mat-label>Filter By:</mat-label>
+      <mat-select [(value)]="selectedFilter" (selectionChange)="applyFilter()">
+        <mat-option value="winRate">Win Rate</mat-option>
+        <mat-option value="mostWins">Most Wins</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  
+  <!-- Table for player data -->
+  <mat-table [dataSource]="filteredPlayers">
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef>Name</mat-header-cell>
+        <mat-cell *matCellDef="let player">
+          <span *ngIf="player.champion > 0" [title]="'Season ' + player.season + ' Winner'">
+            <mat-icon class="crown-icon">emoji_events</mat-icon>
+          </span>
+          {{ player.name }}
+        </mat-cell>
+      </ng-container>
+      
+      
+  
+    <!-- Wins Column -->
+    <ng-container matColumnDef="wins">
+      <mat-header-cell *matHeaderCellDef>Wins</mat-header-cell>
+      <mat-cell *matCellDef="let player">{{ player.wins }}</mat-cell>
+    </ng-container>
+  
+    <!-- Losses Column -->
+    <ng-container matColumnDef="losses">
+      <mat-header-cell *matHeaderCellDef>Losses</mat-header-cell>
+      <mat-cell *matCellDef="let player">{{ player.losses }}</mat-cell>
+    </ng-container>
+  
+    <!-- Win Rate Column -->
+    <ng-container matColumnDef="winRate">
+      <mat-header-cell *matHeaderCellDef>Win Rate (%)</mat-header-cell>
+      <mat-cell *matCellDef="let player">{{ player.winLossRatio | percent:'1.2-2' }}</mat-cell>
+    </ng-container>
+  
+    <!-- Row with Columns -->
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let player; columns: displayedColumns"></mat-row>
+  </mat-table>
